@@ -26,6 +26,6 @@ export const TransactionHistory = ({ items }) => {
   );
 };
 
-Transactions.propTypes = {
+TransactionHistory.propTypes = {
   friends: PropTypes.array.isRequired,
 };
