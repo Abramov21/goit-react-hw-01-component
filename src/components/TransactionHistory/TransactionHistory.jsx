@@ -1,4 +1,5 @@
 import s from './TransactionHistory.module.css';
+import PropTypes from 'prop-types';
 
 export const TransactionHistory = ({ items }) => {
   //   console.log(items);
@@ -23,4 +24,8 @@ export const TransactionHistory = ({ items }) => {
       </tbody>
     </table>
   );
+};
+
+Transactions.propTypes = {
+  friends: PropTypes.array.isRequired,
 };
